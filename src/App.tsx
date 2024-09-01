@@ -10,23 +10,23 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/HookCloak/',
     element: <MainLayout />,
     children: [
       {
-        path: '/hooks',
+        path: '/HookCloak/hooks',
         element: <HooksPage />,
       },
       {
-        path: '/tests',
+        path: '/HookCloak/tests',
         element: <ErrorPage />,
       },
       {
-        path: '/work-with-api',
+        path: '/HookCloak/work-with-api',
         element: <ErrorPage />,
       },
       {
-        path: '/redux',
+        path: '/HookCloak/redux',
         element: <ErrorPage />,
       },
     ],
