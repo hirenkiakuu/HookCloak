@@ -14,8 +14,8 @@ const UseContextBlock = () => {
     <>
       <HookBlockContentsWrapper title={title} description={description}>
         <div style={{ display: 'flex', gap: '5px' }}>
-          <button onClick={() => setTheme('dark')}>Темная тема</button>
-          <button onClick={() => setTheme('default')}>Светлая тема</button>
+          <button onClick={() => setTheme('default')}>Темная тема</button>
+          <button onClick={() => setTheme('dark')}>Светлая тема</button>
         </div>
       </HookBlockContentsWrapper>
     </>

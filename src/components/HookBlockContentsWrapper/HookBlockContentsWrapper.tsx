@@ -13,19 +13,7 @@ const HookBlockContentsWrapper = ({
         <p>{description}</p>
       </div>
 
-      <div
-        style={{
-          width: '50%',
-          height: '170px',
-          border: '3px solid red',
-          borderRadius: '10px',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        {children}
-      </div>
+      <div className={styles['hook-showcase']}>{children}</div>
     </div>
   );
 };

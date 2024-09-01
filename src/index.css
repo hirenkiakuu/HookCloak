@@ -8,18 +8,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --dark-theme-color: rgb(29, 34, 36);
-  --default-theme-color: white;
+  --dark-theme-color: white;
+  --default-theme-color: rgb(35, 39, 47);
 }
 
 [data-theme='dark'] {
   --theme-color: var(--dark-theme-color);
-  --accent-color: white;
+  --accent-color: black;
 }
 
 [data-theme='default'] {
   --theme-color: var(--default-theme-color);
-  --accent-color: black;
+  --accent-color: white;
 }
 
 * {
@@ -30,13 +30,13 @@
 body {
   max-width: 1920px;
   margin: 0;
-  padding: 5px;
   background-color: var(--theme-color);
   color: var(--accent-color);
 }
 
 h1,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
