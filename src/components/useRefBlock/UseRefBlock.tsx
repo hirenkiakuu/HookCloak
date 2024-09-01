@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react';
-import styles from './UseRefBlock.module.css';
+// import styles from './UseRefBlock.module.css';
 import HookBlockContentsWrapper from '../HookBlockContentsWrapper/HookBlockContentsWrapper';
 
 const title = 'useRef() Hook';
 const description =
   'Хук позволяет сохранять ссылку на обьект в DOM или хранить значение, при изменении которого не происходит ререндер компонента.';
+const externalLink = 'https://react.dev/reference/react/useRef';
 
 const UseRefBlock = () => {
   const [toggleState, setToggleState] = useState<boolean>();
@@ -32,7 +33,11 @@ const UseRefBlock = () => {
 
   return (
     <>
-      <HookBlockContentsWrapper title={title} description={description}>
+      <HookBlockContentsWrapper
+        title={title}
+        description={description}
+        externalLink={externalLink}
+      >
         <div style={{ display: 'flex', gap: '10px' }}>
           <button onClick={toggleRefClick}>click to see</button>
           <button onClick={changeRefNodeText} ref={btnNode}>

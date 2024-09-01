@@ -1,10 +1,11 @@
 import HookBlockContentsWrapper from '../HookBlockContentsWrapper/HookBlockContentsWrapper';
 import { useState } from 'react';
-import styles from './UseStateBlock.module.css';
+// import styles from './UseStateBlock.module.css';
 
 const title = 'useState() Hook';
 const description = `Используется для хранения локального состояния компонента. 
 Синтаксис: [value, setValue] = useState()`;
+const externalLink = 'https://react.dev/reference/react/useState';
 
 const UseStateBlock = () => {
   const [counter, setCounter] = useState<number>(0);
@@ -14,7 +15,11 @@ const UseStateBlock = () => {
   };
 
   return (
-    <HookBlockContentsWrapper title={title} description={description}>
+    <HookBlockContentsWrapper
+      title={title}
+      description={description}
+      externalLink={externalLink}
+    >
       <div style={{ display: 'flex', gap: '5px' }}>
         <p>counter is {counter}</p>
         <button onClick={() => increment(1)}>increment +</button>

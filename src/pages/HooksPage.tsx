@@ -3,20 +3,27 @@ import styles from './HooksPage.module.css';
 import UseStateBlock from '../components/useStateBlock/UseStateBlock';
 import UseRefBlock from '../components/useRefBlock/UseRefBlock';
 import UseContextBlock from '../components/UseContextBlock/UseContextBlock';
+import UseEffectBlock from '../components/UseEffectBlock/UseEffectBlock';
 
 const HooksPage = () => {
   return (
     <>
-      {/* header */}
-
+      <h1 className={styles['heading']}>
+        React hooks and other mechanisms interactive guide
+      </h1>
       <div className={styles['hooks-container']}>
         <UseStateBlock />
         <UseRefBlock />
         <UseContextBlock />
+        <UseEffectBlock />
         {/* useReducer - форма + forwardRef*/}
         {/* useContext */}
         {/* useRef */}
         {/* redux}
+        {/* модалка */
+        /* i18n?
+        }
+
 
         {/*Здесь будут блоки с компонентами, по сути это контейнер*/}
         {/* Блок с примером работы useEffect */}

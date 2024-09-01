@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import HookBlockContentsWrapper from '../HookBlockContentsWrapper/HookBlockContentsWrapper';
-import styles from './UseEffectBlock.module.css';
+// import styles from './UseEffectBlock.module.css';
 
 const title = 'useEffect() Hook';
 const description =
   'Хук управляет поведением компонента при каких-либо изменениях указанных в зависимостях';
+const externalLink = 'https://react.dev/reference/react/useEffect';
 
 const UseEffectBlock = () => {
   const [redState, setRedState] = useState<number>();
@@ -36,7 +37,11 @@ const UseEffectBlock = () => {
 
   return (
     <>
-      <HookBlockContentsWrapper title={title} description={description}>
+      <HookBlockContentsWrapper
+        title={title}
+        description={description}
+        externalLink={externalLink}
+      >
         <div>
           <button onClick={generateRandomColor}>
             click to generate random background color

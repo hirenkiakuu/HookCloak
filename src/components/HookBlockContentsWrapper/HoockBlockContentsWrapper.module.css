@@ -2,10 +2,9 @@
   background-color: rgb(32, 32, 45);
   border-radius: 10px;
   box-shadow: 2px 2px 2px black;
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -17,4 +16,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.external-link {
+  font-size: 30px;
+  text-decoration: none;
+  transition: linear 0.2s;
+}
+
+.external-link:hover {
+  color: white;
+}
+
+.block-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

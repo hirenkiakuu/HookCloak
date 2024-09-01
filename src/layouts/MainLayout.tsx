@@ -7,7 +7,9 @@ const MainLayout = () => {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className={styles['content']}>
+        <Outlet />
+      </div>
       <ModalButton />
     </>
   );

@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import styles from './App.module.css';
+// import styles from './App.module.css';
 import HooksPage from './pages/HooksPage';
 import ErrorPage from './pages/Error/ErrorPage';
 import { ThemeContext } from './context/theme.context';
