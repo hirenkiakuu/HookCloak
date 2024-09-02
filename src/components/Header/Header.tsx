@@ -15,28 +15,28 @@ const Header = () => {
           <NavLink
             style={linkStyle}
             className={styles['nav-list__item']}
-            to="/hooks"
+            to="/HookCloak/hooks"
           >
             Хуки
           </NavLink>
           <NavLink
             style={linkStyle}
             className={styles['nav-list__item']}
-            to="/tests"
+            to="/HookCloak/tests"
           >
             Тестирование
           </NavLink>
           <NavLink
             style={linkStyle}
             className={styles['nav-list__item']}
-            to="/work-with-api"
+            to="/HookCloak/work-with-api"
           >
             Работа с API
           </NavLink>
           <NavLink
             style={linkStyle}
             className={styles['nav-list__item']}
-            to="/redux"
+            to="/HookCloak/redux"
           >
             Redux
           </NavLink>
