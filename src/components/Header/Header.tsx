@@ -19,13 +19,7 @@ const Header = () => {
           >
             Хуки
           </NavLink>
-          <NavLink
-            style={linkStyle}
-            className={styles['nav-list__item']}
-            to="/HookCloak/tests"
-          >
-            Тестирование
-          </NavLink>
+
           <NavLink
             style={linkStyle}
             className={styles['nav-list__item']}
@@ -39,6 +33,41 @@ const Header = () => {
             to="/HookCloak/redux"
           >
             Redux
+          </NavLink>
+          <NavLink
+            style={linkStyle}
+            className={styles['nav-list__item']}
+            to="/HookCloak/typescript"
+          >
+            Типизация
+          </NavLink>
+          <NavLink
+            style={linkStyle}
+            className={styles['nav-list__item']}
+            to="/HookCloak/libraries"
+          >
+            Библиотеки
+          </NavLink>
+          <NavLink
+            style={linkStyle}
+            className={styles['nav-list__item']}
+            to="/HookCloak/browser-api"
+          >
+            Browser API
+          </NavLink>
+          <NavLink
+            style={linkStyle}
+            className={styles['nav-list__item']}
+            to="/HookCloak/usecases"
+          >
+            Юзкейсы
+          </NavLink>
+          <NavLink
+            style={linkStyle}
+            className={styles['nav-list__item']}
+            to="/HookCloak/tests"
+          >
+            Тестирование
           </NavLink>
         </ul>
       </nav>

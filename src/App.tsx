@@ -1,12 +1,10 @@
-// import { useState } from 'react'
-// import styles from './App.module.css';
 import HooksPage from './pages/HooksPage';
+import ApiPage from './pages/ApiPage/ApiPage';
 import ErrorPage from './pages/Error/ErrorPage';
 import { ThemeContext } from './context/theme.context';
 import { useContext } from 'react';
 import MainLayout from './layouts/MainLayout';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import cn from '';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/HookCloak/work-with-api',
-        element: <ErrorPage />,
+        element: <ApiPage />,
       },
       {
         path: '/HookCloak/redux',
@@ -41,12 +39,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <h1 className={styles['heading']}>
-        React hooks and other mechanisms interactive guide
-      </h1>
-      <div>
-        <HooksPage />
-      </div> */}
     </>
   );
 }

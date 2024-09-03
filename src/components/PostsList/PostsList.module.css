@@ -1,0 +1,16 @@
+.posts-list {
+  list-style: none;
+}
+
+.posts-list li {
+  margin-bottom: 10px;
+}
+
+.post-card-container {
+  max-width: 1000px;
+  background-color: rgb(32, 32, 45);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  padding: 20px;
+  cursor: pointer;
+}

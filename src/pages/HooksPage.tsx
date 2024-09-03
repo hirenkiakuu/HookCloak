@@ -1,5 +1,6 @@
 import styles from './HooksPage.module.css';
 // import HookBlock from '../components/HookBlock/HookBlock';
+import Heading from '../components/Heading/Heading';
 import UseStateBlock from '../components/useStateBlock/UseStateBlock';
 import UseRefBlock from '../components/useRefBlock/UseRefBlock';
 import UseContextBlock from '../components/UseContextBlock/UseContextBlock';
@@ -8,9 +9,7 @@ import UseEffectBlock from '../components/UseEffectBlock/UseEffectBlock';
 const HooksPage = () => {
   return (
     <>
-      <h1 className={styles['heading']}>
-        React hooks and other mechanisms interactive guide
-      </h1>
+      <Heading>React хуки и другие механизмы</Heading>
       <div className={styles['hooks-container']}>
         <UseStateBlock />
         <UseRefBlock />
