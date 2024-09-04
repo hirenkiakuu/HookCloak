@@ -29,8 +29,8 @@
 .modal-btn {
   height: 50px;
   width: 50px;
-  background-color: white;
-  color: black;
+  background-color: rgb(32, 32, 45);
+  color: #7474fc;
   border: 2px solid #7474fc;
   border-radius: 50%;
   display: flex;

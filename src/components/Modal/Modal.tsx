@@ -26,6 +26,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
               Работа с API:
               <ul>
                 <li>Redux toolkit - RTK Query</li>
+                <li>Axios</li>
               </ul>
             </li>
             <li>
