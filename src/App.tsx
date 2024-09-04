@@ -12,6 +12,10 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
+        index: true,
+        element: <HooksPage />,
+      },
+      {
         path: '/HookCloak/hooks',
         element: <HooksPage />,
       },
